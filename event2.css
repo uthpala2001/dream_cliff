@@ -172,7 +172,7 @@ body{
     background-blend-mode: overlay;
     
 }.section4 p{
-    padding:0px;
+    padding: 1%;
     color: aliceblue;
 }.section4 .container{
     display: flex;
