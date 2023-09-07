@@ -32,6 +32,11 @@
     border-radius: 10px;
 }
 
+.logo{
+    width: 90px;
+    cursor: pointer;
+}
+
 /*---Navigation bar---*/
 a{
     text-decoration: none;

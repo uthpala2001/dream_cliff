@@ -15,6 +15,11 @@ hr{
     margin-right: 5%;
 }
 
+.logo{
+    width: 90px;
+    cursor: pointer;
+}
+
 /*---Navigation---*/
 .nav ul li a{
     padding: 6px;
@@ -101,6 +106,14 @@ hr{
     background-repeat: repeat;
     background-blend-mode:overlay;
     background-size:cover;
+}#body4{
+    background:rgba(0, 0, 0, 0.3);
+    background-image:url("./images/Dream-Cliff-Mountain-Resort-Haputale-Exterior.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-blend-mode:overlay;
+    background-size:cover;
+    
 }#body5{
     background:rgba(0, 0, 0, 0.3);
     background-image:url("./images/dining_banner.jpg");
@@ -450,7 +463,6 @@ hr{
 #content{
     text-align: justify
 }
-
 .container2{
     display: flex;
     justify-content: center;
@@ -475,7 +487,6 @@ hr{
     background-color: rgb(243, 244, 245);
     margin: 5%;
 }
-
 
 /* MEDIA QUERIES FOR PROGRESSIVENESS */
 @media screen and (max-width:1200px)
