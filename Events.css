@@ -13,6 +13,7 @@
 .logo{
     width: 90px;
     cursor: pointer;
+    float:left;
 }
 
 .nav ul li a{
@@ -89,7 +90,10 @@
     height: 100%;
     box-shadow: 2px 2px 2px 2px black;
     color: aliceblue;
-    font-size: 45pt; 
+    font-size: 45pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 
 }.img2{
     background-color: rgba(0, 0, 0, 0.356); 
@@ -106,6 +110,9 @@
     box-shadow: 2px 2px 2px 2px black;
     color: aliceblue;
     font-size: 45pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
@@ -115,7 +122,6 @@ h1{
     text-shadow: 2px 2px 8px black;
 }button{
     text-align: center;
-    margin-left: 40%;
     padding:3%;
     font-size: 24pt;
     border-radius: 20px;
@@ -184,6 +190,11 @@ h1{
         font-size: 44pt;
     }button{
         font-size: 20pt;
-        margin-left: 40%;
     }
+}
+@media screen and (max-width:700px) 
+{
+    button{
+        font-size: 20pt;
+    }    
 }

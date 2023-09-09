@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookings</title>
-    <link rel="stylesheet" href="./Style.css">
+          <link rel="stylesheet" href="./Style.css">
+          <link rel="apple-touch-icon" sizes="180x180" href="./Favicons/apple-touch-icon.png">
+          <link rel="icon" type="image/png" sizes="32x32" href="./Favicons/favicon-32x32.png">
+          <link rel="icon" type="image/png" sizes="16x16" href="./Favicons/favicon-16x16.png">
+          <link rel="manifest" href="./Favicons/site.webmanifest">
+          <link rel="mask-icon" href="./Favicons/safari-pinned-tab.svg" color="#5bbad5">
+          <link rel="shortcut icon" href="./Favicons/favicon.ico">
+          <meta name="msapplication-TileColor" content="#2b5797">
+          <meta name="msapplication-config" content="./Favicons/browserconfig.xml">
+          <meta name="theme-color" content="#000000">  
 </head>
 <body id="body7">
 
@@ -12,29 +21,14 @@
         <div id="mainheading">
             <header class="mainheader">
                 <div id="nav">
-                    <nav class="nav">
-                        <div class="container">
-                            <div class="topnav">
-                                <img src="./Favicons/logo.png" class="logo">
-                                <br> 
-                            <section class="topnav">
-                                <br>                       
+                    <nav class="nav">                                                  
                         <ul>
+                            <img src="./Favicons/logo.png" id="li2" class="logo">
                             <li><a id="li" href="./1.Homepage.html">Home</a></li>
                             <li><a id="li" href="./2.Hotel Branches.html">Branches</a></li>
                             <li><a id="li" href="./3.Adventures.html">Adventures</a></li> 
                             <li><a id="li" href="./5.Restaurants.html">Restaurants</a></li>                       
-                            <li><a id="li" href="./4.Events.html">
-                                    <div class="dropdown">
-                                        <span>Events</span>
-                                        <div class="dropdown-content">
-                                            <a id="dd" href="./4.1 Event1.html">Indoor Events</a>
-                                            <a id="dd" href="./4.2. Event2.html">Outdoor Events</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li> 
-                            
+                            <li><a id="li" href="./4.Events.html">Events</li>
                             <li><a id="li" href="./9.Accommodation.html">Accommodation</a></li>                            
                             <li><a id="li" href="./6.Bookings.html"><u><font color="aqua">Bookings</font></u></a></li>
                             <li><a id="li" href="./7.About us.html">About us</a></li> 
@@ -51,24 +45,129 @@
     <section><!-- FORM Section  -->
 
         <fieldset>
-            <legend>lorem</legend>
+            <legend><h2>Hotel reservation</h2></legend>
             <form action="" method="get">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus necessitatibus aliquam ratione facere quaerat voluptatum dignissimos sapiente neque eos, repudiandae possimus error voluptas vitae cupiditate recusandae deserunt praesentium architecto maiores quos ex dolores nobis, est magni nam? Eveniet veritatis vitae quo iste sint, necessitatibus officiis expedita soluta nam, unde incidunt?
+                <center><h2>Details</h2></center>
+                <section class="form">
+                    <p>
+                        <label for="Firstname">First Name:</label>
+                        <input type="text">
+                        <br><br>
+                    </p>
+                    <p>
+                        <label for="last name">Last Name:</label>
+                        <input type="text">
+                        <br><br>
+                    </p>
+                    <p>
+                        <label for="address">Address:</label>                   
+                        <textarea type="text"></textarea>
+                    <br><br>
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input type="text">
+                        <br><br>
+                    </p>
+                    <p>
+                        <label for="Email">E-mail:</label>
+                        <input type="email">
+                        <br><br>
+                    </p>
+                    <p>
+                        <label for="arrival">Arrival Date:</label>
+                        <input type="date"><br>                    
+                        <label for="departure">Departure Date: </label>
+                        <input type="date">
+                        <br><br>
+                    </p>
+                    <p>
+                        <label for="adults">No. of Adults:</label>
+                        <input id="no" type="number"><br>
+                        <label for="children">No. of Children</label>
+                        <input id="no" type="number">
+                        <br><br>
+                    </p>
+                    <p>
+                        <label for="choice">Types of Rooms:</label>
+                        <select name="choice">
+                            <option value="Single">Single</option>
+                            <option value="Double">Double</option>
+                            <option value="Triple">Triple</option>
+                        </select>
+                    </p>                   
+                </section>                       
             </form>
         </fieldset>
 
         <fieldset>
-            <legend>lorem</legend>
+            <legend><h2>Payments</h2></legend>
             <form action="">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo est perspiciatis impedit consequuntur voluptatibus molestias vel excepturi facere a perferendis omnis, possimus facilis ea, eveniet accusantium adipisci aspernatur fuga rerum nostrum aliquid veritatis obcaecati? Excepturi eaque, rem sapiente consectetur debitis ea earum similique, odit quae est mollitia at natus perspiciatis.
+                <section class="form">
+                    <p>
+                        <label>Method:</label>                    
+                        <input id="radio" type="radio" name="method" value="Pay pal">Pay pal
+                        <input id="radio" type="radio" name="method" value="Visa">Visa
+                        <input id="radio" type="radio" name="method" value="Mastercard">Mastercard
+                    </p>                   
+                </section>                
             </form>
+            <center><button>Book now</button></center>
         </fieldset>
 
         <fieldset>
-            <legend>lorem</legend>
+            <legend><h2>Adventures Booking</h2></legend>
             <form action="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam assumenda at optio id deserunt error ut illo debitis consequatur obcaecati voluptas facere modi a tempora sit quaerat nisi quod, voluptates similique vel quam maxime! Recusandae porro optio veritatis voluptate mollitia consectetur ut minus ducimus, quaerat architecto eveniet minima saepe nulla!
+                <section class="form">
+                    <p>                       
+                            <label for="Firstname">Full Name:</label>
+                            <input type="text">
+                            <br><br>
+                        </p>                       
+                        <p>
+                            <label for="address">Address:</label>
+                            <textarea type="text"></textarea>
+                        <br><br>
+                        </p>
+                        <p>
+                            <label for="phone">Phone Number:</label>
+                            <input type="text">
+                            <br><br>
+                        </p>
+                        <p>
+                            <label for="Email">E-mail:</label>
+                            <input type="email">
+                            <br><br>
+                        </p>
+                        <p>                           
+                        <label for="arrival">Travel Date:</label>
+                        <input type="date">
+                        <br><br>
+                    </p>                  
+                    <p>
+                        <label for="adults">No. of Adults:</label>
+                        <input id="no" type="number">
+                        <label for="children">No. of Children</label>
+                        <input id="no" type="number">
+                        <br><br>
+                    </p>
+                    <p>
+                        <label>Method:</label>                    
+                        <input id="radio" type="radio" name="method" value="Pay pal">Pay pal
+                        <input id="radio" type="radio" name="method" value="Visa">Visa
+                        <input id="radio" type="radio" name="method" value="Mastercard">Mastercard
+                    </p>
+                    <p>
+                        <label for="choice">Types of Adventures:</label>
+                        <select name="choice">
+                            <option value="Flying ravana zipline">Fliying ravana zipline</option>
+                            <option value="Air rifling">Air rifling</option>
+                            <option value="Archery">Archery</option>
+                        </select>
+                    </p>  
+                </section>               
             </form>
+            <center><button>Booking adventures</button></center>
         </fieldset> 
 
     </section>
